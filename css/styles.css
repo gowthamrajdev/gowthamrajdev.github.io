@@ -28,6 +28,14 @@ html {
 	}
 }
 
+@media (max-width: 600px) {
+	.dev-icon {
+		height: 60% !important;
+		width: 80% !important;
+	}
+	
+}
+
 .icons-social i {
 	font-size: 3em;
 }
@@ -68,4 +76,10 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.dev-icon {
+	height: 40%;
+	width: 40%;
+	margin: 2rem;
 }
